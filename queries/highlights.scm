@@ -63,7 +63,6 @@
   "#"
   ","
   "."
-  ":"
   "::"
   ";"
 ] @punctuation.delimiter
@@ -74,3 +73,9 @@
   "("
   "}"
 ] @punctuation.bracket
+
+(class_selector) @function
+(keyword_query) @function
+(descendant_selector) @function
+(integer_value (unit) @unit)
+(plain_value) @unit
